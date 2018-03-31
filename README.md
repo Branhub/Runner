@@ -22,31 +22,31 @@
 
 Runner下
 
-  Level是关卡。实际使用的是DefaultLevel
+  -Level是关卡。实际使用的是DefaultLevel
   
-  Material是材质。
+  -Material是材质。
   
-  Phy是一个物理材质，没有实际使用
+  -Phy是一个物理材质，没有实际使用
   
-  StaticMesh下是静态网格
+  -StaticMesh下是静态网格
   
   
   
- Runner下的Blueprint是各种蓝图
+  -Runner下的Blueprint是各种蓝图
  
-  GameMode里现在还没什么实际的东西
+  -GameMode里现在还没什么实际的东西
   
-  RunnerController是角色的Controller。也没有实际内容。
+  -RunnerController是角色的Controller。也没有实际内容。
   
-  RunnerCharacter是角色，详情见下文
+  -RunnerCharacter是角色，详情见下文
   
-  RunnerStates是玩家状态枚举，现在只有Idle和Run
+  -RunnerStates是玩家状态枚举，现在只有Idle和Run
   
-  EnergyCapsule是能量胶囊。玩家碰到后，会根据生成胶囊时随机到的配置，来增/减玩家的能量
+  -EnergyCapsule是能量胶囊。玩家碰到后，会根据生成胶囊时随机到的配置，来增/减玩家的能量
   
-  CapsuleConfigs是能量胶囊配置结构体
+  -CapsuleConfigs是能量胶囊配置结构体
   
-  test没有用到
+  -test没有用到
   
   
   
