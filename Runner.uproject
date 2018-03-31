@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{4E09C48E-44B1-78FE-5911-9D83BB839B5A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Runner",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

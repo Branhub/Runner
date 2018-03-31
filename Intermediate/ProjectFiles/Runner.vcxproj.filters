@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Runner.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A9A5DE8A-432B-438B-834E-08C87E83399A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runner.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\RunnerEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8E3790AC-18AF-4B17-9AF8-A75B0A016555}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Runner">
+			<UniqueIdentifier>{535584CC-D07E-4309-9C13-2E686EF197A3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runner\Runner.Build.cs">
+			<Filter>Source\Runner</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Runner\Runner.cpp">
+			<Filter>Source\Runner</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Runner\Runner.h">
+			<Filter>Source\Runner</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Runner\RunnerGameModeBase.cpp">
+			<Filter>Source\Runner</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Runner\RunnerGameModeBase.h">
+			<Filter>Source\Runner</Filter>
+		</ClInclude >
+		<Filter Include="Source\Runner\Private">
+			<UniqueIdentifier>{0E90F392-5BBD-4F7A-AEB5-97ADFEEF4734}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Runner\Private\MyCharacterMovementComponent.cpp">
+			<Filter>Source\Runner\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Runner\Private\RoadMovementComponent.cpp">
+			<Filter>Source\Runner\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Runner\Private\RunnerCpp.cpp">
+			<Filter>Source\Runner\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Runner\Public">
+			<UniqueIdentifier>{67DFD2E7-8AFE-4C04-BD78-50F36C614D1C}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Runner\Public\MyCharacterMovementComponent.h">
+			<Filter>Source\Runner\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Runner\Public\RoadMovementComponent.h">
+			<Filter>Source\Runner\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Runner\Public\RunnerCpp.h">
+			<Filter>Source\Runner\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
